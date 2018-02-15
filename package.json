@@ -1,0 +1,25 @@
+{
+  "name": "creditor",
+  "version": "1.0.0",
+  "description": "Tool to quickly output dependency information to CSV",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zuzak/creditor.git"
+  },
+  "keywords": [
+    "credits",
+    "dependencies"
+  ],
+  "author": "Douglas Gardner <douglas@chippy.ch>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zuzak/creditor/issues"
+  },
+  "homepage": "https://github.com/zuzak/creditor#readme",
+  "dependencies": {
+    "array-to-csv": "^1.0.1",
+    "credits-to": "0.0.2"
+  },
+  "bin": "./index.js"
+}
