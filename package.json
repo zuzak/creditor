@@ -1,6 +1,6 @@
 {
   "name": "creditor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tool to quickly output dependency information to CSV",
   "main": "index.js",
   "repository": {

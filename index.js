@@ -10,7 +10,6 @@ creditsTo(function (err, credits) {
 		var credit = npmCredits[packageName]
 		if (!credit.versions) credit.versions = []
 		if (!credit.licenses) credit.licenses = []
-		console.log(credit)
 		output.push([credit.name, credit.description, credit.versions.join(';'), credit.licenses.join(';')])
 	}
 	console.log(toCSV(output))
