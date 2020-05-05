@@ -21,5 +21,8 @@
     "array-to-csv": "^1.0.1",
     "credits-to": "0.0.2"
   },
-  "bin": "./index.js"
+  "bin": "./index.js",
+  "files": [
+    "man/*"
+  ]
 }
